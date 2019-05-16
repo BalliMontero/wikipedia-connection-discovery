@@ -8,17 +8,11 @@ Code base forked from: https://github.com/Mgancita/wikipedia_connection_finder/
   Development is ongoing so your feedback is useful 
 
 ## Requirements
-`Python 2/3`
 * wikipedia
 * bs4
 * networkx
 * requests
-
-`Python 2`
-  * urlparse
-
-`Python 3`
-  * urllib.parse
+* urllib.parse
 
 ## Usage
   currently unavailable
