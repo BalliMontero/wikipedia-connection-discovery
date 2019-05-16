@@ -12,7 +12,7 @@ while run_again == 'y' or run_again == 'yes':
     start_url = input('Enter starting wikipage: ')
     end_url = input('Enter ending wikipage: ')
     layer_cap = input('Max layers to check (Default = 7): ')
-    
+
     if layer_cap == '':
         functions.find_connection(start_url,end_url)
     else:
