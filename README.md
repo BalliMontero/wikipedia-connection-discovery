@@ -1,4 +1,4 @@
-# Wikipedia Connection Finder
+# Wikipedia Connection Discovery
 Code base forked from: https://github.com/Mgancita/wikipedia_connection_finder/
 ## About
   Web crawling application which finds the most efficient internal wikipedia webpage connection between two wikipedia webpages based on a supplied topic.
