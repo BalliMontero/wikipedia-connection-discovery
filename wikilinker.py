@@ -3,13 +3,6 @@ import operator
 
 import networkx as nx
 
-'''
-async exploration and job execution
-search for keywords and link (other crawler)
-'''
-
-#key1, key2 = "Health", "Fashion"
-
 def wikilinker(key1, key2):
     base_url = 'https://en.wikipedia.org/wiki/'+key1
     end_url = 'https://en.wikipedia.org/wiki/'+key2
