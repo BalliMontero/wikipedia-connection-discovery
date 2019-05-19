@@ -1,11 +1,10 @@
 # Wikipedia Connection Discovery
 Code base forked from: https://github.com/Mgancita/wikipedia_connection_finder/
 ## About
-  Web crawling application which finds the most efficient internal wikipedia webpage connection between two wikipedia webpages based on a supplied topic.
+  Web crawling application which finds the most efficient internal wikipedia webpage connection between two wikipedia webpages based on supplied keywords.
 
   It is intended for use in knowledge graph generation and idea linkage. Students and researchers are encouraged to test and critique this use case.
 
-  Development is ongoing so your feedback is useful
 
 ## Requirements
   * Python 3+
@@ -22,13 +21,14 @@ Install dependencies:
 
   `pip install -r requirements.txt`
 
-Run [test]:
+Run:
 
-  `python main.py`
+  `python3 main.py`
 
-  Test with any of the word pairs in the `results-images` folder
+  Test with any of the word pairs in the `results-images` folder.
 
 ## To do
   + Asynchronous Discovery
-  + Multiple words or phrases
+  + Indexing
+  + N words
   + Explore `wikipedia` module for opportunities to optimise
